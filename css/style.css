@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --bg-color: #1A1A1A;
+    --blue-color: #009FE3;
+    --secondary-blue: #B4E8FF;
+    --gray-color: #BCBCBC;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.hero {
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 5rem;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title h1 {
+    font-size: 1.8rem;
+}
+
+.hero-title p {
+    font-size: 0.85rem;
+}
+
+.studies2{
+    padding-left: 1rem;
+}
+
+.hero-studies {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-hero {
+    color: #FFFFFF;
+    border: solid 1px var(--secondary-blue);
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.btn-hero:hover {
+    background-color: var(--blue-color);
+    border: none;
+}
+
+.logo {
+    padding-left: 5rem;
+    width: 50%;
+}

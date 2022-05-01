@@ -160,6 +160,10 @@ body {
     margin-bottom: 0%;
 }
 
+.dev {
+    font-size: 0.7rem;
+}
+
 /*  === SKINNY BANNER === */
 
 .skinny-banner {
@@ -202,5 +206,33 @@ body {
 @media only screen and (max-width: 768px) {
     .btn-skinny {
         display: none;
+    }
+}
+
+/*  ===  CV  === */
+
+.cv {
+    background-color: #FFFFFF;
+    padding: 1rem 0 1rem 0;
+}
+
+.img-cv {
+    border-radius: 80%;
+    border: solid 1.5px var(--bg-color);
+    width: 60%;
+}
+
+.cv-title {
+    font-family: 'Cabin', sans-serif;
+    margin: auto 0 auto 0;
+}
+
+.cv-content {
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-cv {
+        width: 30%;;
     }
 }

@@ -67,7 +67,7 @@ body {
 
 .btn-hero:hover {
     background-color: var(--blue-color);
-    border: none;
+    border: solid 1px var(--blue-color);
 }
 
 .logo {
@@ -232,7 +232,66 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
     .img-cv {
-        width: 30%;;
+        width: 100%;
     }
+
+    .cv-title {
+        width: 70%;
+    }
+
+    .cv-img-cont {
+        width: 30%;
+    }
+
+    .cv-content {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/*  ===  CONTACT  ===  */
+
+.contact {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 1rem;
+}
+
+/*  ===  FORM  ===  */
+
+.form {
+    padding: 1rem 0 1rem 0;
+}
+
+.form-group {
+    padding-bottom: 0.3rem;
+}
+
+.btn-contact {
+    background-color: var(--secondary-blue);
+    color: #FFFFFF;
+    border: solid 1px var(--secondary-blue);
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.btn-contact:hover {
+    color: #FFFFFF;
+    background-color: var(--blue-color);
+    border: solid 1px var(--blue-color);
+}
+
+/*  === SOCIAL ===  */
+
+.social {
+    padding: 1rem 0 1rem 0;
+}
+
+.social a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-size: 3.5rem;
 }

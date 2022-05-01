@@ -144,6 +144,7 @@ body {
 .footer {
     color: var(--gray-color);
     padding-top: 1rem;
+    font-family: 'Cabin', sans-serif;
 }
 
 .footer a {
@@ -157,4 +158,49 @@ body {
 
 .footer p {
     margin-bottom: 0%;
+}
+
+/*  === SKINNY BANNER === */
+
+.skinny-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+.izq-skinny {
+    display: flex;
+}
+
+.izq-skinny p {
+    margin-bottom: 0%;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.logo-skinny {
+    width: 5%;
+}
+
+.text-skinny {
+    color: var(--gray-color);
+}
+
+.btn-skinny {
+    color: #FFFFFF;
+    border: solid 1px var(--secondary-blue);
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.btn-skinny:hover {
+    color: #FFFFFF;
+    background-color: var(--blue-color);
+    border: solid 1px var(--blue-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-skinny {
+        display: none;
+    }
 }

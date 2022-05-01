@@ -32,6 +32,11 @@ body {
     justify-content: center;
 }
 
+.hero-title h1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .hero-title h1 {
     font-size: 1.8rem;
 }
@@ -93,6 +98,7 @@ body {
 .cards {
     background-color: #FFFFFF;
     font-family: 'Cabin', sans-serif;
+    padding-bottom: 2rem;
 }
 
 .section-title {
@@ -118,8 +124,37 @@ body {
     padding-top: 2rem;
 }
 
+.btn-primary {
+    background-color: var(--blue-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-blue);
+}
+
 @media only screen and (max-width: 768px) {
     .card {
         margin-bottom: 2rem;
     }
+}
+
+/*  === FOOTER  === */
+
+.footer {
+    color: var(--gray-color);
+    padding-top: 1rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.footer a:hover {
+    color: var(--secondary-blue);
+}
+
+.footer p {
+    margin-bottom: 0%;
 }
